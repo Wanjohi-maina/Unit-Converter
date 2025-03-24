@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    color: white;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    background: #273549;
+    
+}
+.main-container {
+    background: #1F2937;
+    width: 550px;
+    height: 750px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+/* HERO SECTION */
+.hero-section {
+    height: 285px;
+    background: #6943FF;
+    padding: 30px;
+    margin-bottom: 40px;
+
+}
+#hero-title {
+    font-size: 28px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+#input-el {
+    width: 117px;
+    height: 83px;
+    background-color: #6943FF;
+    border-radius: 5px;
+    border: 2px solid #B295FF;
+    color: white;
+    font-size: 58px;
+    text-align: center;
+    font-weight: 800;
+    font-family: inherit;
+}
+#btn-convert {
+    width: 117px;
+    padding: 9px 27px;
+    border-radius: 5px;
+    display: block;
+    margin: 30px auto;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 500;
+    color: #3D3D3D;
+    background: white;
+    cursor: pointer;
+    border: none;
+}
+  /* CONVERSION SECTION */
+  .units {
+    width: 500px;
+    height: 108.57px;
+    border-radius: 4px;
+    background: #273549;
+    margin: 30px auto;
+}
+.conversion-title {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px;
+    color: #C7BEF1;
+}
+.conversion-hint {  
+    font-size: 14px;
+    font-weight: 400;
+}
