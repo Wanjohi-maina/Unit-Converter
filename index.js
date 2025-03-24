@@ -13,7 +13,7 @@ const literToGallon = 0.264
 const kiloToPound = 2.204
 
 btnConvert.addEventListener("click", function(){
-    let myUnits = Number(inputEl.value)
+    const myUnits = Number(inputEl.value)
     lengthEl.textContent = `${myUnits} meters = ${(myUnits * meterToFeet).toFixed(3)} feet | 
     ${myUnits} feet = ${(myUnits / meterToFeet).toFixed(3)} meters`
 
