@@ -14,12 +14,16 @@ const kiloToPound = 2.204
 
 btnConvert.addEventListener("click", function(){
     const myUnits = Number(inputEl.value)
+    
+    // Length Conversion
     lengthEl.textContent = `${myUnits} meters = ${(myUnits * meterToFeet).toFixed(3)} feet | 
     ${myUnits} feet = ${(myUnits / meterToFeet).toFixed(3)} meters`
-
+    
+    // Volume Conversion
     volumeEl.textContent = `${myUnits} liters = ${(myUnits * literToGallon).toFixed(3)} gallons | 
     ${myUnits} gallons = ${(myUnits / literToGallon).toFixed(3)} liters`
-
+    
+    // Mass Conversion
     massEl.textContent = `${myUnits} kilos = ${(myUnits * kiloToPound).toFixed(3)} pounds | 
     ${myUnits} pounds = ${(myUnits / kiloToPound).toFixed(3)} kilos`
 })
